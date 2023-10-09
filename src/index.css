@@ -1,13 +1,97 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body
+{
+  background: palevioletred;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 20px;
+}
+.App
+{
+  background: powderblue;
+  color: black;
+  border-radius: 20px;
+  width: 50rem;
+  min-height: 200px;
+  padding: 20px 30px;
+}
+.question-display
+{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-left: 20px;
+  justify-content: center;
+}
+.question-display .id
+{
+  font-size: 2.5rem;
+  
+}
+.question-display .q
+{
+  font-size: 1.5rem;
+  margin-top: 20px;
+}
+.questions
+{
+  display: flex;
+  justify-content: space-between;
+
+}
+.answers 
+{
+  border: 2px solid palevioletred;
+  width: 240px;
+  height: 50px;
+  border-radius: 20px;
+  padding-top: 10px;
+  padding-left: 10px;
+  font-size: 1rem;
+  color: black;
+  cursor: pointer;
+}
+.btn-1
+{
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.mapped
+{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+.btn button
+{
+  width: 170px;
+  height: 60px;
+  background-color: palevioletred;
+  border-radius: 20px;
+  align-self: center;
+  border: none;
+  cursor: pointer;
+}
+.btn
+{display: flex;
+ align-items: center;
+ justify-content: center;
+ cursor: pointer;
+}
+.plum
+{
+  background:plum
+}
+.blue
+{
+  background: blue;
 }
